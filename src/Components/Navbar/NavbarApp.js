@@ -27,7 +27,7 @@ const NavbarApp = () => {
                 </Navbar.Collapse>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 </Col>
-                <Col lg="5" >
+                <Col lg="4" >
                 <Navbar.Collapse id="responsive-navbar-nav" className='li'>
                     <Nav className='links'>
                     <Nav.Link href='/'>INICIO</Nav.Link>
@@ -36,7 +36,7 @@ const NavbarApp = () => {
                     </Nav>
                     </Navbar.Collapse>
                     </Col>
-                    <Col lg="3">
+                    <Col lg="4">
                     <Nav className='botones'>
                         <Navbar.Collapse id="responsive-navbar-nav" className='bot'>
                             <Button variant="outline-danger" size='lg' className='boton1' href='/Iniciar_sesion'>INICIAR SESIÓN</Button>{' '}

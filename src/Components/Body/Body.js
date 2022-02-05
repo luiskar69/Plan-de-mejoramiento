@@ -20,14 +20,14 @@ const Body = () => {
                 <p>
                 Está integrada por profesionales en Seguridad Privada  con instructores idóneos, altamente capacitados en cada una de las áreas asignadas; igualmente contamos con asesores de Seguridad de vasta experiencia, adquirida durante muchos años al servicio del  Estado, además, con formación Nacional e  Internacional, debidamente acreditados  por la Superintendencia de Vigilancia y Seguridad Privada.
                 </p>
-                <div className='publi'>
+                <Col lg="4" md={{ span: 4, offset: 4 }}>
                 <img
                         src= {Publicacion}
                         width="100%"
                         height="500"
                         alt=""
                     />
-                </div>
+                </Col>
                 <br />
                 <Row>
                     <Col lg="4" className='card1'>
