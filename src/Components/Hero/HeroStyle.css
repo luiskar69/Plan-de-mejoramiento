@@ -1,0 +1,27 @@
+.background{
+    background-image: url("https://www.iic.uam.es/wp-content/uploads/2021/04/seguridad-salud-trabajo.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider{
+    margin-top: 65px;
+}
+.conte1{
+    padding-left: 30px;
+    color: white;
+}
+
+.conte1 h3{
+    margin-top: 60px;
+    font-size: 30px;
+    font-family:'Times New Roman';
+}
+.conte1 h1{
+    font-size: 70px;
+}
+.conte1 h4{
+    font-family:cursive ;
+}
+

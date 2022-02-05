@@ -1,0 +1,20 @@
+.carreta h1{
+    text-align: center;
+    font-family: Cambria;
+}
+.carreta p{
+    text-align: justify;
+    font-family: Arial;
+}
+.carreta{
+    background-color: rgba(221, 221, 221, 0.829);
+}
+.tabla{
+    margin: 10px 15px 10px 15px;
+}
+.espace{
+    margin-bottom: 20px;
+}
+.title_table{
+    text-align: center;
+}

@@ -1,0 +1,48 @@
+.boton{
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.boton1{
+    margin-top: 6px;
+}
+
+.botones{
+    margin-top: -6px;
+    height: 100%;
+    width: auto;
+    margin-left: 20px;
+}
+.bot{
+    justify-content: end;
+    margin-right: -40px;
+}
+.back{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 110px;
+    padding-top: 8px;
+}
+.logo{
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.links{
+    margin-top: 2px;
+    font-size: 21px;
+    font-weight: 500px;
+    font-family: 'Clarkson',Helvetica,sans-serif;
+}
+.li{
+    justify-content: center;
+}
+.name{
+    margin-top: 10px;
+    font-family: fantasy;
+    color: white;
+}
+.box{
+    padding: 0% !important;
+}

@@ -1,0 +1,28 @@
+.texto h1{
+    padding-top: 10px;
+    font-family: Cambria;
+    text-align: center;
+}
+.texto p{
+    text-align: justify;
+    font-family: Arial;
+}
+.card1{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center !important;
+}
+.title_card{
+    text-align: center;
+}
+.publi{
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+}
+.cardu{
+    background-color: rgb(192, 192, 192)
+}
+.colorcito{
+    background-color: rgba(221, 221, 221, 0.829);
+}

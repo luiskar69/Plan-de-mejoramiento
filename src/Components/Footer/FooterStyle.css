@@ -1,0 +1,29 @@
+.justify{
+    color: white;
+}
+.justify h4{
+    text-align: center;
+    font-family: Verdana;
+}
+.division1{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.division{
+    margin-bottom: 10px;
+}
+.face{
+    margin-left: 8px;
+}
+.face a{
+    color: white;
+}
+.division1 a{
+    color: white;
+}
+.division a{
+    color: white;
+}
+.more{
+    text-align: center;
+}
