@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Publicacion from './publicacion.jpg'
+import Valores from './valores.png'
 import { Container } from 'react-bootstrap'
 
 const Body = () => {
@@ -20,14 +21,14 @@ const Body = () => {
                 <p>
                 Está integrada por profesionales en Seguridad Privada  con instructores idóneos, altamente capacitados en cada una de las áreas asignadas; igualmente contamos con asesores de Seguridad de vasta experiencia, adquirida durante muchos años al servicio del  Estado, además, con formación Nacional e  Internacional, debidamente acreditados  por la Superintendencia de Vigilancia y Seguridad Privada.
                 </p>
-                <Col lg="4" md={{ span: 4, offset: 4 }}>
+                <div className='publi'>
                 <img
                         src= {Publicacion}
                         width="100%"
                         height="500"
                         alt=""
                     />
-                </Col>
+                </div>
                 <br />
                 <Row>
                     <Col lg="4" className='card1'>
@@ -61,7 +62,7 @@ const Body = () => {
                 <Card className='cardu' style={{ width: '18rem' }}>
                 <Card.Img variant="top"
                 width="auto"
-                height="380" src="https://autozuniga.com/wp-content/uploads/2015/06/valores.png" />
+                height="380" src={Valores} />
                 <Card.Body>
                     <Card.Title> <h5 className='title_card'>FILOSOFIA EMPRESARIAL</h5></Card.Title>
                     <br/>

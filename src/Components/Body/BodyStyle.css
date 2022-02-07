@@ -15,6 +15,11 @@
 .title_card{
     text-align: center;
 }
+.publi{
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
+}
 .cardu{
     background-color: rgb(192, 192, 192)
 }

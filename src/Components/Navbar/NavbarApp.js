@@ -12,6 +12,7 @@ const NavbarApp = () => {
         <div className='back'>
         <Row>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className='box'>
+                
                 <Col className='logo' lg="0">
                     <a href='/'><img
                         src= {Logo}
@@ -21,13 +22,13 @@ const NavbarApp = () => {
                         alt=""
                     /> </a> 
                 </Col>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Col className='name' lg="3">
                 <Navbar.Collapse id="responsive-navbar-nav" className='li'>
                     <h4> ACADEMIA DE SEGURIDAD </h4>
                 </Navbar.Collapse>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 </Col>
-                <Col lg="4" >
+                <Col lg="5" >
                 <Navbar.Collapse id="responsive-navbar-nav" className='li'>
                     <Nav className='links'>
                     <Nav.Link href='/'>INICIO</Nav.Link>
@@ -36,7 +37,7 @@ const NavbarApp = () => {
                     </Nav>
                     </Navbar.Collapse>
                     </Col>
-                    <Col lg="4">
+                    <Col lg="3">
                     <Nav className='botones'>
                         <Navbar.Collapse id="responsive-navbar-nav" className='bot'>
                             <Button variant="outline-danger" size='lg' className='boton1' href='/Iniciar_sesion'>INICIAR SESIÓN</Button>{' '}
